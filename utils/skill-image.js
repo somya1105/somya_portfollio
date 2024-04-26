@@ -72,7 +72,9 @@ import vuetifyjs from '/public/svg/skills/vuetifyjs.svg';
 import webix from '/public/svg/skills/webix.svg';
 import wolframalpha from '/public/svg/skills/wolframalpha.svg';
 import wordpress from '/public/svg/skills/wordpress.svg';
-
+import kafka from '/public/svg/skills/Apache_kafka.svg';
+import nodejs from '/public/svg/skills/NodeJs.svg';
+import elastic from '/public/svg/skills/elastic-svgrepo-com.svg';
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
@@ -225,6 +227,12 @@ export const skillsImage = (skill) => {
       return wolframalpha;
     case 'canva':
       return canva;
+    case 'kafka':
+        return kafka;
+    case 'elasticstack':
+        return elastic;
+    case 'node js':
+          return nodejs;
     default:
       break;
   }

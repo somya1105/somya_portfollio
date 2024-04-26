@@ -9,4 +9,5 @@ module.exports = {
   },
   output: "export",  // <=== enables static exports
     reactStrictMode: true,
+    basePath: '/somya_portfollio',
 }

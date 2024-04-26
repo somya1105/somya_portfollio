@@ -3,7 +3,7 @@ export const skillsData = [
   'Python',
   'Typescript',
   'React',
-  'Elastic Stack',
+  'ElasticStack',
   'Kafka',
   'MongoDB',
   'MySQL',
